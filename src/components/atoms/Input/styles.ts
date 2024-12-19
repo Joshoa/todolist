@@ -1,5 +1,6 @@
 import { StyleSheet } from 'react-native';
 import { colors } from '../../../constants/colors';
+import { fonts } from '../../../constants/fonts';
 
 export const styles = StyleSheet.create({
   input: {
@@ -10,7 +11,9 @@ export const styles = StyleSheet.create({
     borderRadius: 6,
     color: colors.gray100,
     marginRight: 4,
-    fontSize: 16,
+    fontSize: fonts.size.md,
+    fontFamily: fonts.type.regular,
+    lineHeight: fonts.lineHeight.md,
   },
   inputFocused: {
     borderWidth: 1,

@@ -1,13 +1,14 @@
 import { StyleSheet } from "react-native";
 import { colors } from "../../../constants/colors";
+import { fonts } from "../../../constants/fonts";
 
 export const styles = StyleSheet.create({
   container: {
     flexDirection: 'row'
   },
   title: {
-    fontSize: 14,
-    fontWeight: 'bold',
+    fontSize: fonts.size.sm,
+    fontFamily: fonts.type.bold,
     color: colors.blue
   },
   counterContainer: {
@@ -19,8 +20,8 @@ export const styles = StyleSheet.create({
     marginLeft: 8
   },
   counter: {
-    fontSize: 12,
-    fontWeight: 'bold',
+    fontSize: fonts.size.xsm,
+    fontFamily: fonts.type.bold,
     color: colors.gray200,
     textAlign: 'center'
   }
